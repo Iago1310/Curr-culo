@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.tudo {
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tudo1 {
+    display: flex;
+    justify-content: center;
+}
+
+#contato h1{
+    display: flex;
+    justify-content: center;
+}
+
