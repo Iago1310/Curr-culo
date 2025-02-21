@@ -12,16 +12,52 @@ body {
     max-width: 1000px;
     background-color: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 .tudo1 {
-    margin: 0%;
+    width: 100%;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .tudo1 img{
    border-radius: 30%;
+
 }
+.icones{
+   display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+}
+
+#icone1{
+   height: 30px;
+   width: 30px;
+}
+#icone2{
+    height: 30px;
+    width: 30px;
+}
+
+#icone3{
+    height: 30px;
+    width: 30px;
+}
+
+#nome{
+    flex-grow: 1;
+    text-align: center;
+}
+#icone4{
+    height: 30px;
+    width: 30px;
+}
+
+#icone5{
+    height: 30px;
+    width: 30px;
+}
+
