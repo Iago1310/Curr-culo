@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    background-color: gray;
     display: flex;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
 
 .tudo1 {
     width: 100%;
-    display: flex;
+   display: flex;
     justify-content: space-between;
     align-items: center;
    
@@ -47,7 +47,7 @@ body {
     width: 30px;
 }
 
-#nome{
+.nome{
     flex-grow: 1;
     text-align: center;
 }
@@ -60,4 +60,6 @@ body {
     height: 30px;
     width: 30px;
 }
-
+.nome :hover {
+    color: green;
+}
